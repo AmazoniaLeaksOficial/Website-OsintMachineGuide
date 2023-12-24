@@ -22,41 +22,78 @@ const features = [
     icon: "bx:bxs-data",
   },
   {
-    title: "Tor-Browser Verification",
+    title: "Protection from Targeted Malicious Updates",
     description:
-      "Processo para download e verificação de assinatura do Tor Browser e configurações iniciais de segurança.",
+      "Kicksecure update servers know neither the identity nor IP address of the user because all upgrades are downloaded over Tor.",
     icon: "bx:bxs-bot",
   },
   {
-    title: "Hard Firewall Install and Regras.",
+    title: "Kernel Self Protection Settings.",
     description:
-      "Instalação de Firewall + Configuração Hardening de Regas avançadas para garantir maior segurança!",
+      "Kicksecure uses strong Kernel Hardening Settings as recommended by the Kernel Self Protection Project (KSPP).",
     icon: "bx:bxs-file-find",
   },
   {
-    title: "Installation Privacy Applications",
+    title: "Time Attack Protection",
     description:
-      "Instale aplicativos focados em privacidade e  OPSEC, como Kleopatra, KeePassXC, Zulu Crypt, e outras.",
+      "Kicksecure defeats time attacks on its users through Boot Clock Randomization and secure network time synchronization using sdwdate.",
     icon: "bx:bxs-user",
   },
   {
-    title: "Tor-Browser Verification",
+    title: "No Open Ports by Default",
     description:
-      "Processo para download e verificação de assinatura do Tor Browser e configurações iniciais de segurança.",
+      "Kicksecure provides a much lower attack surface since there are no open server ports by default unlike in some other Linux distributions.",
     icon: "bx:bxs-bot",
   },
   {
-    title: "Hard Firewall Install and Regras.",
+    title: "CPU Information Leak Protection (TCP ISN)",
     description:
-      "Instalação de Firewall + Configuração Hardening de Regas avançadas para garantir maior segurança!",
+      "Without TCP ISN randomization, sensitive information about a system's CPU activity can be leaked through outgoing traffic, leaving it vulnerable to side-channel attacks. tirdad prevents that.",
     icon: "bx:bxs-file-find",
   },
   {
-    title: "Installation Privacy Applications",
+    title: "Brute Force Defense",
     description:
-      "Instale aplicativos focados em privacidade e  OPSEC, como Kleopatra, KeePassXC, Zulu Crypt, e outras.",
+      "Kicksecure protects Linux user accounts against brute force attacks by using pam tally2.",
     icon: "bx:bxs-user",
-  },  {
+  }, 
+  {
+    title: "Entropy Enhancements",
+    description:
+      "Strong entropy is required for computer security to ensure the unpredictability and randomness of cryptographic keys and other security-related processes. Kicksecure makes encryption more secure thanks to preinstalled random number generators.",
+    icon: "bx:bxs-bot",
+  },
+  {
+    title: "Live Mode",
+    description:
+      "Kicksecure offers a much requested Live Mode. After the session all data will be gone.",
+    icon: "bx:bxs-file-find",
+  },
+  {
+    title: "Risk Minimization",
+    description:
+      "AppArmor profiles restrict the capabilities of commonly used, high-risk applications.",
+    icon: "bx:bxs-user",
+  },
+ {
+    title: "Strong Linux User Account Separation",
+    description:
+      "Linux User Account Separation is not always a given on Linux systems. In Kicksecure it is.",
+    icon: "bx:bxs-bot",
+  },
+  {
+    title: "Virus Protection",
+    description:
+      "Kicksecure provides additional security hardening measures and user education for better protection from virus attacks.",
+    icon: "bx:bxs-file-find",
+  },
+  {
+    title: "Swap File Creator",
+    description:
+      "Running low on RAM isn't a security problem with swap-file-creator. It will create an encrypted swap file.",
+    icon: "bx:bxs-user",
+  },
+ {
     title: "Tor-Browser Verification",
     description:
       "Processo para download e verificação de assinatura do Tor Browser e configurações iniciais de segurança.",
