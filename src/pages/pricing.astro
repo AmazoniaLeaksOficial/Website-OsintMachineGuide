@@ -2,40 +2,41 @@
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import PricingCard from "@components/pricing.astro";
+import Pricing from "@components/pricing.astro";
 
 const pricing = [
   {
-    name: "Do it yourself",
+    name: "Personal",
     price: "Free",
     popular: false,
     features: [
       "Lifetime free",
-      "Unlimited users",
-      "Unlimited Uses",
-      "All features",
-      "All instructions",
+      "Up to 3 users",
+      "Unlimited Pages",
+      "Astro Sub domain",
+      "Basic Integrations",
       "Community Support",
     ],
     button: {
       text: "Get Started",
-      link: "https://github.com/AmazoniaLeaksOficial/OSINTMachineGuide",
+      link: "/",
     },
   },
   {
     name: "Startup",
     price: {
-      monthly: "$200",
-      annual: "$1000",
+      monthly: "$19",
+      annual: "$16",
       discount: "10%",
-      original: "$1200",
+      original: "$24",
     },
     popular: true,
     features: [
       "All Free Features",
-      "Up to 10 computers/laptops ($200 per computer)",
-      "03 Quality Assurance Tests",
-      "Check all PGP signatures",
+      "Up to 20 users",
+      "20 Custom domains",
+      "Unlimited Collaborators",
+      "Advanced Integrations",
       "Priority Support",
     ],
     button: {
@@ -48,13 +49,12 @@ const pricing = [
     price: "Custom",
     popular: false,
     features: [
-      "All Startup Features",
-      "For government and private organizations",
-      "Video call availability",
-      "Progressive discount",
-      "Training availability",
-      "Unlimited revisions",
-      "Long-Term Possibility",
+      "All Pro Features",
+      "Unlimited Custom domains",
+      "99.99% Uptime SLA",
+      "SAML & SSO Integration",
+      "Dedicated Account Manager",
+      "24/7 Phone Support",
     ],
     button: {
       text: "Contact us",
@@ -67,17 +67,14 @@ const pricing = [
 <Layout title="Pricing">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Pricing & Plans</Fragment>
-      <Fragment slot="desc">
-        The OsintMachineGuide configurations are based on open-source software, licensed for free. <br>
-        The correct application of these configurations is a marketable service, and that is why this page exists. <br>
-        <strong>We encourage you to do the configurations yourself</strong>, but if you don't have time, <br>
-        we offer service packages that can be contracted below.
-      </Fragment>
+      <Fragment slot="title">Pricing</Fragment>
+      <Fragment slot="desc"
+        >Simple & Predictable pricing. No Surprises.</Fragment
+      >
     </Sectionhead>
 
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-screen-lg mt-12">
-      {pricing.map((item) => <PricingCard plan={item} />)}
+      {pricing.map((item) => <Pricing plan={item} />)}
     </div>
   </Container>
 </Layout>
