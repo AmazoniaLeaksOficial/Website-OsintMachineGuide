@@ -1,10 +1,10 @@
 ---
 draft: false
-name: "Marcell Ziemann"
-title: "Principal Strategist"
+name: "Minotaur"
+title: "Cybersecurity Specialist & Founder"
 avatar: {
-    src: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?&fit=crop&w=280",
-    alt: "Marcell Ziemann"
+    src: "https://img.freepik.com/premium-photo/fiery-enraged-bovine-emblem_1016726-4791.jpg?&fit=crop&w=280",
+    alt: "Minotaur"
 }
 publishDate: "2022-11-08 15:39"
 ---
