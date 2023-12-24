@@ -19,9 +19,9 @@ Alternatively, you can clone the project directly from this repo to your local s
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/surjithctly/astroship.git myProjectName
+git clone https://github.com/AmazoniaLeaksOficial/Website-OsintMachineGuide.git myProjectName
 # or
-git clone https://github.com/surjithctly/astroship.git .
+git clone https://github.com/AmazoniaLeaksOficial/Website-OsintMachineGuide.git .
 ```
 
 The `.` will clone it to the current directory so make sure you are inside your project folder first.
@@ -101,6 +101,6 @@ TailwindCSS is already configured in this repo, so you can start using it withou
 
 ## 👀 Want to learn more?
 
-Feel free to check out [Astro Docs](https://docs.astro.build) or jump into our [Discord Chat](https://web3templates.com/discord).
+Feel free to check out [Astro Docs](https://docs.astro.build).
 
 [![Built with Astro](https://astro.badg.es/v1/built-with-astro.svg)](https://astro.build)
