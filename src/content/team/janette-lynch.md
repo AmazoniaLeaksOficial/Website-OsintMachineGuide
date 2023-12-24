@@ -1,10 +1,10 @@
 ---
 draft: false
-name: "Janette Lynch"
-title: "Senior Director"
+name: "Your Name Here"
+title: "Investor"
 avatar: {
-    src: "https://images.unsplash.com/photo-1580489944761-15a19d654956?&fit=crop&w=280",
-    alt: "Janette Lynch"
+    src: "https://images.unsplash.com/photo-1673259490113-f61211378f51?&fit=crop&w=280",
+    alt: "Your Name Here"
 }
 publishDate: "2022-11-07 15:39"
 ---
