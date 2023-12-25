@@ -3,21 +3,23 @@ draft: false
 title: "Digital Security for Investigative OSINT and Journalists"
 snippet: ""
 image: {
-    src: "https://github.com/AmazoniaLeaksOficial/OSINTMachineGuide/blob/main/Images/1695334261352.jpeg?&fit=crop&w=430&h=240,
-    alt: "full stack web development"
+    src: "![1695334261352](https://github.com/AmazoniaLeaksOficial/OSINTMachineGuide/assets/152492042/597b342c-1db7-4c7d-b4cd-0b4ab4215854)?&fit=crop&w=430&h=240,
+    alt: "Digital Security"
 }
 publishDate: "2022-11-08 11:39"
-category: "Tutorials"
-author: "Janette Lynch"
-tags: [webdev, tailwindcss, frontend]
+category: "Digital Security"
+author: "Minotaur"
+tags: [OSINT, DigitalSecurity, OPSEC]
+
 ---
 
 Digital Security for Investigative journalists and human rights advocates.
 
-Primary audience: Investigative journalist
-Secondary audience: Human rights advocates
-Level: Essential
-Table of contents:
+**Primary audience**: Investigative journalist
+**Secondary audience**: Human rights advocates
+**Level**: Essential
+
+## Table of contents:
 
 * Risk assessment
 * Time, Resources, and Knowledge
@@ -28,7 +30,7 @@ Table of contents:
 * References
 * List of Terms
 
-Risk assessment
+### Risk assessment
 
 Digital Security for Investigative Journalists and Human Rights Defenders in Censored and Threatening Environments. In a world where information has become a powerful resource, investigative journalists and human rights defenders in countries with strict censorship often face various digital and physical threats. This article aims to provide a comprehensive overview of threat models and digital security strategies that these professionals can adopt to protect their activities and sensitive information. However, before delving into the subject, it is crucial to understand the concept and origins of this topic, using the text from the Electronic Frontier Foundation (EFF) as a reference.
 
