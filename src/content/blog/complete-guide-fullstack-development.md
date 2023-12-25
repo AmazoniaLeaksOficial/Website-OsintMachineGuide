@@ -3,7 +3,7 @@ draft: false
 title: "Digital Security for Investigative OSINT and Journalists"
 snippet: ""
 image: {
-    src: "https://github.com/AmazoniaLeaksOficial/OSINTMachineGuide/blob/main/Images/1695334261352.jpeg?&fit=crop&w=430&h=240",
+    src: "https://github.com/AmazoniaLeaksOficial/OSINTMachineGuide/blob/main/Images/1695334261352.jpeg?&fit=crop&w=430&h=240,
     alt: "full stack web development"
 }
 publishDate: "2022-11-08 11:39"
