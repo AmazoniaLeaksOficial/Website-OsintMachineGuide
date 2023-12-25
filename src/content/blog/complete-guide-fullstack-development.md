@@ -2,10 +2,6 @@
 draft: false
 title: "Digital Security for Investigative OSINT and Journalists"
 snippet: ""
-image: {
-    src: "![1695334261352](https://github.com/AmazoniaLeaksOficial/OSINTMachineGuide/assets/152492042/597b342c-1db7-4c7d-b4cd-0b4ab4215854)?&fit=crop&w=430&h=240",
-    alt: "Digital Security"
-}
 publishDate: "2023-12-25 09:33"
 category: "Digital Security"
 author: "Minotaur"
