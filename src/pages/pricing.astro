@@ -3,65 +3,77 @@ import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import Pricing from "@components/pricing.astro";
+import { pricing } from "./pricing";
 
-const pricing = [
-  {
-    name: "Personal",
+const pricing = 
+[{
+    name: "Do it yourself",
     price: "Free",
     popular: false,
-    features: [
+    features: 
+    [
       "Lifetime free",
-      "Up to 1 users",
-      "Unlimited Pages",
-      "Astro Sub domain",
-      "Basic Integrations",
+      "Unlimited Computers",
+      "Unlimited users",
+      "All features",
+      "All instructions",
+      "All default Tools",
       "Community Support",
     ],
     button: {
       text: "Get Started",
-      link: "/",
+      link: "https://github.com/AmazoniaLeaksOficial/OSINTMachineGuide",
     },
   },
   {
     name: "Startup",
     price: {
       monthly: "$200",
-      annual: "$16",
+      annual: "$2000",
       discount: "10%",
-      original: "$24",
+      original: "$250",
     },
     popular: true,
     features: [
+      "",
       "All Free Features",
-      "Up to 20 users",
-      "20 Custom domains",
-      "Unlimited Collaborators",
-      "Advanced Integrations",
-      "Priority Support",
-    ],
+      "One computer/laptop",
+      "Additional Recommend OSINT Tools",
+      "All Additional Tools PGP Signin Check",
+      "Prices start at $200",
+      "01 to 10 computers/laptops: $200 per machine",
+      "Progressive discount(10%/machine)",
+      "PDF User Manual",
+      "Priority Support(email)",
+              ],
     button: {
       text: "Get Started",
-      link: "#",
+      link: "https://www.fiverr.com/s/8B6R3v",
     },
   },
   {
     name: "Enterprise",
     price: "Custom",
     popular: false,
-    features: [
-      "All Pro Features",
-      "Unlimited Custom domains",
-      "99.99% Uptime SLA",
-      "SAML & SSO Integration",
-      "Dedicated Account Manager",
-      "24/7 Phone Support",
+    features: 
+    [
+      "All Features",
+      "One computer/laptop",
+      "Additional Recommend OSINT Tools",
+      "All Additional Tools PGP Signin Check",
+      "Prices negotiable. Quote on request",
+      "Progressive discount(10%/machine)",
+      "PDF User Manual",
+      "Priority Support(email)",
+      "Long-Term Possibility",
+      "24/7 Support Possibility",
     ],
     button: {
       text: "Contact us",
       link: "/contact",
     },
   },
-];
+],
 ---
 
 <Layout title="Pricing">
@@ -69,7 +81,10 @@ const pricing = [
     <Sectionhead>
       <Fragment slot="title">Pricing</Fragment>
       <Fragment slot="desc"
-        >Simple & Predictable pricing. No Surprises.</Fragment
+        >All tools in the OsintMachineGuide project are open-source. 
+        We strongly recommend that users build their own machines using the tutorial. 
+        However, we understand that not everyone has the time or knowledge to do so. 
+        For users or organizations that need to configure one or more machines, we offer custom configuration services.</Fragment
       >
     </Sectionhead>
 
