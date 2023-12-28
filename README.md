@@ -1,6 +1,6 @@
 ## Preview of the website
 
-![index-vercel](https://github.com/AmazoniaLeaksOficial/Website-OsintMachineGuide/assets/152492042/8bdf5cb4-7b64-41fb-aa94-223828811874)
+![screen-websiteOMG](https://github.com/AmazoniaLeaksOficial/Website-OsintMachineGuide/assets/152492042/f72dbec8-8948-4566-9ced-b882a94b70a3)
 
 
 ### Pagespeed Score
